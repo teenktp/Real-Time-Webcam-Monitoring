@@ -1,0 +1,9 @@
+torch>=2.0
+torchvision
+timm            # MobileOne backbone (eye gaze model)
+ultralytics     # YOLO11s (environment model)
+mediapipe       # body pose model
+opencv-python
+onnx
+onnxruntime
+numpy

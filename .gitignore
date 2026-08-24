@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data & artifacts (หนักเกินไปสำหรับ git, สร้างขึ้นใหม่ได้จาก script)
+Dataset/
+Dataset_MIL/
+raw_videos/
+embedding_cache/
+checkpoints/
+onnx_export/
+
+# OS junk
+.DS_Store
+Thumbs.db
