@@ -7,6 +7,8 @@ venv/
 # Data & artifacts (หนักเกินไปสำหรับ git, สร้างขึ้นใหม่ได้จาก script)
 Dataset/
 Dataset_MIL/
+Dataset_Augmented/
+augmentation_preview/
 raw_videos/
 embedding_cache/
 checkpoints/

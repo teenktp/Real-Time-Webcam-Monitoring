@@ -15,6 +15,7 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASET_DIR = os.path.join(ROOT_DIR, "Dataset")          # e.g. Dataset/subject1/cheat/*.jpg
 RAW_VIDEO_DIR = os.path.join(ROOT_DIR, "raw_videos")      # unlabeled videos to be auto-labeled by MIL
 MIL_LABELED_DIR = os.path.join(ROOT_DIR, "Dataset_MIL")   # output of label_by_mil.py (same layout as Dataset)
+DATASET_AUGMENTED_DIR = os.path.join(ROOT_DIR, "Dataset_Augmented")
 
 CHECKPOINT_DIR = os.path.join(ROOT_DIR, "checkpoints")
 ONNX_DIR = os.path.join(ROOT_DIR, "onnx_export")
